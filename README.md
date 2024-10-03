@@ -5,3 +5,13 @@ This project focuses on sentiment analysis of movie reviews from the IMDB datase
 
 ## Dataset
 The dataset used for this project contains 50,000 movie reviews from the IMDB website, available on Kaggle:(https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+
+## Data Preprocessing
+To prepare the dataset, the following preprocessing steps were applied:
+
+* Converted all text to lowercase.
+Removed HTML tags from reviews.
+Filtered out non-alphabetic text.
+Removed common stop words to focus on key terms.
+Applied lemmatization to reduce words to their root forms.
+Tokenized the reviews and applied padding sequences to ensure uniform input length
